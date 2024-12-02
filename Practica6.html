@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TRABAJO CON FORMULARIO</h1>
+    <!-- realizamos un formulario -->
+    <section>
+        <div class="prueba">
+            <form action="Practica51.html" method="get">
+                <label for="saludo">Nombre</label>
+                <br>
+                  <!--realizamos una caja de texto  -->
+
+                <input type="text" id="saludo" name="saludo" size="20" maxlength="10" required>
+                <br>
+                <!-- realizamos una caja de texto con contraseña -->
+                 <label for="contra">contraseña</label>
+                 <br>
+                 <input type="password" name="contraseña" id="saludo" size="20" maxlength="5" required>
+                 <br>
+                 <br>
+                 <!-- realizaremos un checkbox -->
+                  <input type="checkbox" name="opciones" id="opciones">ESTADO DE MEXICO <br>
+                 <input type="checkbox" name="opciones" id="opciones">CIUDAD DE MEXICO <br>
+                 <br>
+                  <!--realizaremos opciones de radio  -->
+                  <div>
+                    <input type="radio" name="carreras" id="tenango">INGENIERIA EN SISTEMAS <br>
+                    <input type="radio" name="carreras" id="tenango">ADMINISTRACION <br>
+                    <input type="radio" name="carreras" id="tenango">NUTRICION <br>
+                  </div>
+                  <br>
+                  <input type="submit">
+                  <br>
+                  <h3>SELECCIONA UNA FECHA</h3>
+                  <input type="date">
+                  <br>
+                  <!-- vamos a realizar una paleta de color -->
+                   <input type="color">
+                   <br>
+                   <br>
+                   <h4>ENVIAR COMENTARIOS</h4>
+                  <textarea name="" id="">mensaje</textarea>
+                  <br>
+                    <!-- vamos a frealizar un ejemplo de una expresion regular -->
+                  <br>
+                  <div>
+                  <h3>DIRECCION</h3>
+                  <input type="text" name="direccion" id="direccion" pattern="[a-zA-Zz]*" required>
+                  <br>
+                  </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
